@@ -1,0 +1,34 @@
+{
+  "name": "svg-sprite-vue-generator",
+  "version": "1.0.0",
+  "main": "lib/svg-sprite-vue-generator.js",
+  "private": true,
+  "scripts": {
+    "demo:serve": "vue-cli-service serve",
+    "demo:build": "vue-cli-service build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^2.6.5",
+    "pascal-case": "2.0.1",
+    "svg-sprite-loader": "^4.2.1",
+    "svgo-loader": "^2.2.1",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "babel": {
+    "presets": [ "@vue/app" ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
