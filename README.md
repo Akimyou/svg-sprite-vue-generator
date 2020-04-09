@@ -145,7 +145,7 @@ module.exports = {
 
 ### Note
 
-- Can not use inline and extract mode toggler
+- Can not use inline and extract mode together
 - May be you can use just extract mode for all svg file
 
 ## Demo
