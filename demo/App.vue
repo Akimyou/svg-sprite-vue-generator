@@ -2,6 +2,10 @@
   <div id="app">
     <h1>Svg Sprite Vue Generator</h1>
     <h2>Vue component runtime generator for svg-sprite-loader.</h2>
+    <div class="group">
+      <a href="https://github.com/akimyou/svg-sprite-vue-generator">Github</a>
+      <a href="https://www.npmjs.com/package/svg-sprite-vue-generator">Npm</a>
+    </div>
     <h2>#1 Sprite Component</h2>
     <div class="group">
       <Cat01Sprite class="icon" />
@@ -25,11 +29,7 @@
         <li class="note">Please run this demo in local then change "vue.config.js" to test more options</li>
       </ul>
     </div>
-    <h2>Made by <a href="https://github.com/akimyou" target="_blank">Akimyou</a> with ❤️</h2>
-    <div class="group">
-      <a href="https://github.com/akimyou/svg-sprite-vue-generator">Github</a>
-      <a href="https://www.npmjs.com/package/svg-sprite-vue-generator">Npm</a>
-    </div>
+    <h2>Made by <a href="https://github.com/akimyou">Akimyou</a> with ❤️</h2>
     <div class="group-icon">
       <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
         href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
