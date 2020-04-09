@@ -2,6 +2,7 @@ const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
 
 // vue.config.js
 module.exports = {
+  publicPath: '/svg-sprite-vue-generator/',
   outputDir: 'docs',
   assetsDir: 'static',
   pages: {
