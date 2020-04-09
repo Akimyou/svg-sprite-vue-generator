@@ -20,7 +20,7 @@
     <h2>#4 Note</h2>
     <div class="group" style="flex-direction: column;">
       <ul>
-        <li class="note">This demo page run in "inline mode"</li>
+        <li class="note">This demo page run in "extract mode"</li>
         <li class="note">The "Extract Sprite Url" only in "extract mode" can be an valid url</li>
         <li class="note">Please run this demo in local then change "vue.config.js" to test more options</li>
       </ul>

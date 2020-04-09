@@ -22,14 +22,14 @@ module.exports = {
     // add svg-sprite-loader
     config.module.rule('svg-sprite')
       .test(/\.sprite\.(svg)(\?.*)?$/)
-      .use('babel-loader').loader('babel-loader').end()
+      // .use('babel-loader').loader('babel-loader').end()
       .use('svg-sprite-loader').loader('svg-sprite-loader').tap(() => {
         return {
           runtimeGenerator: require.resolve('./lib/svg-sprite-vue-generator'),
           runtimeOptions: {
             extractCompTagImg: false,
           },
-          extract: false,
+          extract: true,
           publicPath: '/static/'
         }
       }).end()
