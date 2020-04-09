@@ -2,7 +2,7 @@
   "name": "svg-sprite-vue-generator",
   "version": "1.0.0",
   "main": "lib/svg-sprite-vue-generator.js",
-  "private": true,
+  "private": false,
   "scripts": {
     "demo:serve": "vue-cli-service serve",
     "demo:build": "vue-cli-service build"
