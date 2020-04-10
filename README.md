@@ -42,7 +42,6 @@ console.log(wikipedia)
 May be need to install related loaders, such as:
 
 - babel-loader
-- svg-sprite-loader
 - svgo-loader
 
 ```js
@@ -103,7 +102,6 @@ console.log(wikipedia)
 
 May be need to install related loaders, such as:
 
-- svg-sprite-loader
 - svgo-loader
 
 ```js
@@ -139,6 +137,18 @@ module.exports = {
       }).end()
       .use('svgo-loader').loader('svgo-loader')
   }
+}
+```
+
+### TypeScript
+
+add module declare for typescript.
+
+```js
+declare module "*.sprite.svg" {
+  import Vue, { VueConstructor } from 'vue'
+  const content: VueConstructor<Vue>
+  export default content
 }
 ```
 

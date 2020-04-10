@@ -17,14 +17,14 @@
     "demo:build": "vue-cli-service build"
   },
   "dependencies": {
-    "pascal-case": "2.0.1"
+    "pascal-case": "2.0.1",
+    "svg-sprite-loader": "^4.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.0",
     "@vue/cli-service": "^3.12.0",
     "babel-loader": "^8.1.0",
     "core-js": "^2.6.5",
-    "svg-sprite-loader": "^4.2.1",
     "svgo-loader": "^2.2.1",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10"
