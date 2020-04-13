@@ -95,6 +95,8 @@ h1, h2 {
   max-width: 200px;
   max-height: 200px;
   margin-bottom: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .group a {
   margin-right: 20px;
@@ -105,5 +107,23 @@ h1, h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.svg-sprite-loading {
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  animation-timing-function: linear;
+  background: linear-gradient(to right, #f3f3f6 8%, #f8faff 18%, #f3f3f6 33%);
+  background-size: 1000px 104px;
+  border-radius: 10%;
+}
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0
+  }
+  to {
+    background-position: 468px 0
+  }
 }
 </style>
