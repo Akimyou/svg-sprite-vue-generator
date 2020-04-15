@@ -1,6 +1,6 @@
 {
   "name": "svg-sprite-vue-generator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Vue component runtime generator for svg-sprite-loader.",
   "keywords": [
     "vue",
