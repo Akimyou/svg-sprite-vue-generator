@@ -28,6 +28,9 @@ module.exports = {
           runtimeGenerator: require.resolve('./lib/svg-sprite-vue-generator'),
           runtimeOptions: {
             extractCompTagImg: false,
+            attrs: {},
+            loadingClass: '',
+            otherClass: '',
           },
           extract: true,
           publicPath: '/static/'

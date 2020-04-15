@@ -108,6 +108,10 @@ h1, h2 {
   justify-content: center;
   align-items: center;
 }
+img.svg-sprite-loading {
+  width: 200px;
+  height: 200px;
+}
 .svg-sprite-loading {
   animation-duration: 2s;
   animation-fill-mode: forwards;

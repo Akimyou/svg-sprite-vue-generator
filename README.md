@@ -152,6 +152,23 @@ declare module "*.sprite.svg" {
 }
 ```
 
+### Runtime Options
+
+Use runtime options to config more
+
+```js
+{
+  // default render svg tag, set it true to render img tag in extract mode
+  extractCompTagImg: false,
+  // bind any attributes, default is empty
+  attrs: {},
+  // set loading class, default is 'svg-sprite-loading'
+  loadingClass: '',
+  // set any class string, default is ''
+  otherClass: '',
+}
+```
+
 
 ### Note
 
